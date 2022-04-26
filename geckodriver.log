@@ -21,3 +21,23 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1650238488616	Marionette	INFO	Listening on port 55541
 1650238489009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1650238816543	Marionette	INFO	Stopped listening on port 55541
+1650331004304	geckodriver	INFO	Listening on 127.0.0.1:64811
+1650331007344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofilevB6QS7"
+1650331007763	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofilevB6QS7\\search.json.mozlz4", (void 0)))
+1650331009790	Marionette	INFO	Listening on port 64820
+1650331010020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650331010150	Marionette	INFO	Stopped listening on port 64820
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1650331182088	geckodriver	INFO	Listening on 127.0.0.1:64980
+1650331185149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofilehpUsmf"
+1650331185521	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofilehpUsmf\\search.json.mozlz4", (void 0)))
+1650331187242	Marionette	INFO	Listening on port 64989
+1650331187306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650331187400	Marionette	INFO	Stopped listening on port 64989
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
