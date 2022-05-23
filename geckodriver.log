@@ -85,3 +85,41 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
 1653291586546	Marionette	INFO	Stopped listening on port 59537
 [Parent 122260, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1653300873987	geckodriver	INFO	Listening on 127.0.0.1:51956
+1653300876998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileY6RuOm"
+1653300877428	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileY6RuOm\\search.json.mozlz4", (void 0)))
+1653300878804	Marionette	INFO	Listening on port 51965
+1653300879046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653300879352	Marionette	INFO	Stopped listening on port 51965
+1653301026226	geckodriver	INFO	Listening on 127.0.0.1:52121
+1653301029245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileXfty34"
+1653301029614	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileXfty34\\search.json.mozlz4", (void 0)))
+1653301030854	Marionette	INFO	Listening on port 52130
+1653301031274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
+1653301034434	Marionette	INFO	Stopped listening on port 52130
+[Parent 315832, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1653301138368	geckodriver	INFO	Listening on 127.0.0.1:52228
+1653301141366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileM5x0cq"
+1653301141739	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileM5x0cq\\search.json.mozlz4", (void 0)))
+1653301143020	Marionette	INFO	Listening on port 52237
+1653301143408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
+1653301146620	Marionette	INFO	Stopped listening on port 52237
+1653301890672	geckodriver	INFO	Listening on 127.0.0.1:52815
+1653301893691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileJBgnAX"
+1653301894091	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peter\\AppData\\Local\\Temp\\rust_mozprofileJBgnAX\\search.json.mozlz4", (void 0)))
+1653301895360	Marionette	INFO	Listening on port 52824
+1653301895728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
+1653301897888	Marionette	INFO	Stopped listening on port 52824
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 358152, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
