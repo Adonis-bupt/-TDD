@@ -5,7 +5,6 @@ from django.test import TestCase
 from django.template.loader import render_to_string
 from lists.models import Item
 
-
 class ItemModelTest(TestCase):
     def test_saving_and_retrieving_items(self):
         first_item = Item()
