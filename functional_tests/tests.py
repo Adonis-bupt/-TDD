@@ -1,13 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-from django.test import LiveServerTestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium.common.exceptions import WebDriverException
 
 MAX_WAIT = 4
 
 
-class NewVisitorTest(LiveServerTestCase):
+class NewVisitorTest(StaticLiveServerTestCase):
     def setUp(self):
         self.browser = webdriver.Firefox()
 
@@ -27,11 +27,11 @@ class NewVisitorTest(LiveServerTestCase):
                     raise e
                 time.sleep(0.5)
 
-    def test_can_a_list_for_one_user(self):
-        # Edith has heard about a cool new online to-do app.
-        self.browser.get(self.live_server_url)
-        self.wait_for_row_in_list_table('1: Buy peacock feathers')
-        self.wait_for_row_in_list_table('2: Use peacock feathers to make a fly')
+    # def test_can_a_list_for_one_user(self):
+    #     # Edith has heard about a cool new online to-do app.
+    #     self.browser.get(self.live_server_url)
+    #     self.wait_for_row_in_list_table('1: Buy peacock feathers')
+    #     self.wait_for_row_in_list_table('2: Use peacock feathers to make a fly')
 
     def test_multiple_users_can_start_list_lists_at_different_urls(self):
         # Edith starts a new to-do list
